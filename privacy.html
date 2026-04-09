@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité — Contrôle Denon AVR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 { color: #1a1a2e; border-bottom: 2px solid #e94560; padding-bottom: 10px; }
+        h2 { color: #444; margin-top: 30px; }
+        p  { color: #555; }
+        ul { color: #555; }
+        .date { color: #888; font-size: 0.9em; }
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #888;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Politique de confidentialité<br>Contrôle Denon AVR — Alexa Skill</h1>
+    <p class="date">Dernière mise à jour : avril 2026</p>
+
+    <h2>1. Présentation</h2>
+    <p>
+        Cette politique de confidentialité s'applique à la skill Alexa <strong>Contrôle Denon AVR</strong>,
+        qui permet de contrôler un amplificateur Denon AVR via Amazon Alexa par commandes vocales
+        et interface visuelle APL.
+    </p>
+
+    <h2>2. Données collectées</h2>
+    <p>
+        La skill <strong>ne collecte aucune donnée personnelle</strong>. Plus précisément, elle ne collecte pas,
+        ne stocke pas, ne vend pas et ne partage pas :
+    </p>
+    <ul>
+        <li>Votre nom, adresse e-mail ou toute information d'identité</li>
+        <li>Vos données de localisation</li>
+        <li>Votre historique vocal ou vos commandes passées</li>
+        <li>Toute autre information personnelle identifiable</li>
+    </ul>
+
+    <h2>3. Données de configuration</h2>
+    <p>
+        La seule donnée enregistrée est l'adresse IP locale de votre amplificateur Denon,
+        saisie volontairement par l'utilisateur lors de la configuration de la skill.
+        Cette adresse est stockée temporairement dans la mémoire de la fonction AWS Lambda
+        associée à la skill (<code>/tmp</code>) et n'est jamais transmise à un tiers.
+        Elle est utilisée uniquement pour envoyer des commandes à l'amplificateur
+        sur votre réseau domestique privé.
+    </p>
+
+    <h2>4. Utilisation de Login with Amazon (LWA)</h2>
+    <p>
+        La skill utilise Login with Amazon uniquement pour satisfaire l'exigence d'Amazon
+        concernant la liaison de compte pour les skills de type Smart Home.
+        Aucune information issue de votre compte Amazon (nom, e-mail, historique d'achats, etc.)
+        n'est lue, enregistrée ou utilisée par cette skill.
+    </p>
+
+    <h2>5. Communications réseau</h2>
+    <p>
+        Les seules communications effectuées par la skill sont des requêtes HTTP/HTTPS
+        locales vers l'adresse IP de l'amplificateur configurée par l'utilisateur,
+        sur son réseau domestique privé. Aucune donnée ne transite vers un serveur
+        externe autre que l'infrastructure AWS Lambda d'Amazon.
+    </p>
+
+    <h2>6. Services tiers</h2>
+    <p>
+        La skill s'exécute sur l'infrastructure <strong>AWS Lambda</strong> d'Amazon Web Services.
+        Elle est soumise à la politique de confidentialité d'Amazon disponible sur
+        <a href="https://aws.amazon.com/privacy/" target="_blank">aws.amazon.com/privacy</a>.
+        Aucun autre service tiers n'est utilisé.
+    </p>
+
+    <h2>7. Enfants</h2>
+    <p>
+        Cette skill n'est pas destinée aux enfants de moins de 13 ans et ne collecte
+        sciemment aucune information les concernant.
+    </p>
+
+    <h2>8. Modifications</h2>
+    <p>
+        Cette politique de confidentialité peut être mise à jour occasionnellement.
+        Toute modification sera reflétée sur cette page avec une date de mise à jour révisée.
+        L'utilisation continue de la skill après modification vaut acceptation de la nouvelle politique.
+    </p>
+
+    <h2>9. Contact</h2>
+    <p>
+        Pour toute question relative à cette politique de confidentialité,
+        vous pouvez ouvrir une issue sur le dépôt GitHub associé à cette skill
+        ou contacter le développeur via son profil GitHub.
+    </p>
+
+    <footer>
+        <p>© 2026 Contrôle Denon AVR — Alexa Skill. Tous droits réservés.</p>
+        <p>Cette skill est un projet indépendant et n'est pas affiliée à Denon ou Amazon.</p>
+    </footer>
+
+</body>
+</html>
